@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video RV Upload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload de vídeo para RV</h1>
+        <input type="file" id="videoUpload" accept="video/*">
+        <div id="vrVideoContainer">
+            <div class="vr-overlay">
+                <video id="vrLeftEye" autoplay muted></video>
+                <video id="vrRightEye" autoplay muted></video>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
